@@ -1,0 +1,1 @@
+https://open.neis.go.kr/hub/mealServiceDietInfo?KEY=fa297ba8a3404d6aa5d6aa12b2b11818&Type=json&ATPT_OFCDC_SC_CODE=D10&SD_SCHUL_CODE=7240454&MLSV_YMD=date_str

@@ -1,0 +1,10 @@
+네이티브 앱 키	ca22b93479732434bd6544dd3394d22b
+REST API 키	        0af09b18c6e4e045fe7ceb4ddcc50845
+JavaScript 키 	f62525eceb0ce9a158e28970199ffd89
+Admin 키	        1cce68451cc3edb6415137297542c9b3
+
+
+YMlNfG2__SVkZ6BK-9XOsYfKCJt1gYBZWFPK4nOWHxBmRB-t4-g4aPHWkVkTJKTxDh5trgopb9QAAAF_2Phxpg
+
+
+https://kauth.kakao.com/oauth/authorize?client_id=0af09b18c6e4e045fe7ceb4ddcc50845&redirect_uri=https://example.com/oauth&response_type=code

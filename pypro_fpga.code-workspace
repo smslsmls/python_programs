@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\data\\work\\dgsw\\FPGA"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stat.h": "c"
+		}
+	}
+}

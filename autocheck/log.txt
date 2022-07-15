@@ -1,0 +1,12 @@
+안찬 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+고용빈 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+박성한 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+박지건 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+박현우 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+윤병훈 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+윤서준 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+이지호 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+유은재 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+이윤성 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+우상범 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
+남궁경헌 : {'error': False, 'code': 'SUCCESS', 'message': '성공적으로 자가진단을 수행하였습니다.', 'regtime': '2022-07-15 07:46:36'}
