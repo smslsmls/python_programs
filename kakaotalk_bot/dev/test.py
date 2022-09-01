@@ -3,11 +3,11 @@ import win32con
 import win32api
 import win32gui
 global name
-name = (input("채팅방 이름 : "))
+name = "ㅇㅅㅈ"
 global contents
-contents = input("전송할 내용 : ")
+contents = ""
 global repeat
-repeat = int(input("반복할 횟수 : "))
+repeat = 1
 
 kakao_opentalk_name = name
 
@@ -41,6 +41,7 @@ def open_chatroom(chatroom_name):
     sleep(1)
     SendReturn(hwndkakao_edit3)
     sleep(1)
+    win32api.SendMessage(hwndkakao_edit3, win32con.WM_SETTEXT, 0, "")
 
 
 def main():

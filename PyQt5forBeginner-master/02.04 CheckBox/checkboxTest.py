@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
 
-form_class = uic.loadUiType("checkboxTest.ui")[0]
+form_class = uic.loadUiType(r"PyQt5forBeginner-master\02.04 CheckBox\checkboxTest.ui")[0]
 
 class WindowClass(QMainWindow, form_class) :
     def __init__(self) :
