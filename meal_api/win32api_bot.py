@@ -31,6 +31,7 @@ def kakao_sendtext(chatroom_name, text):
 
     win32api.SendMessage(hwndEdit, win32con.WM_SETTEXT, 0, text)
     SendReturn(hwndEdit)
+    sleep(1)
 
 
 
@@ -66,7 +67,7 @@ def main():
 def send_meal(breakfast,lunch,dinner,breakfast_star,lunch_star,dinner_star):
     meal_data=get_meal_data()
     open_chatroom(kakao_opentalk_name)
-    kakao_sendtext(kakao_opentalk_name, '---')
+    sleep(5)
     if breakfast:
         kakao_sendtext(kakao_opentalk_name, meal_data[0])
         kakao_sendtext(kakao_opentalk_name, '⭐'*breakfast_star)
@@ -76,8 +77,6 @@ def send_meal(breakfast,lunch,dinner,breakfast_star,lunch_star,dinner_star):
     if dinner:
         kakao_sendtext(kakao_opentalk_name, meal_data[2])
         kakao_sendtext(kakao_opentalk_name, '⭐'*dinner_star)
-    
-    kakao_sendtext(kakao_opentalk_name, '---')
 
 if __name__ == '__main__':
     main()
