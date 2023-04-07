@@ -1,15 +1,21 @@
 from flask import Flask, jsonify
-from .rfid import read
 
 app=Flask(__name__)
 
+@app.route('/')
+def hello_world():
+    return 'Hello World!'
+
 @app.route('/json_test')
-def hellow_json():
+def hello_json():
     f = open("read_data.txt", 'r')
     id=f.readline()
     while id=='':
         id=f.readline()
-    text=f.readline()
+    id=id.strip()
+    text=f.readline().strip()
+    f.close()
+    f = open("read_data.txt", 'w')
     f.close()
     data = {'id' : id, 'text':text}
     return jsonify(data)
